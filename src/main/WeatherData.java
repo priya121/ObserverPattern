@@ -1,10 +1,8 @@
 package main;
 
-import java.util.ArrayList;
 import java.util.Observable;
 
 public class WeatherData extends Observable {
-    private ArrayList observers;
     private float temperature;
     private float humidity;
     private float pressure;
